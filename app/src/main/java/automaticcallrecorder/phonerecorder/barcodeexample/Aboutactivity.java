@@ -4,17 +4,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class Productdetails extends AppCompatActivity {
+public class Aboutactivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_productdetails);
+        setContentView(R.layout.activity_aboutactivity);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
     }
-
     @Override
     protected void onResume() {
         super.onResume();

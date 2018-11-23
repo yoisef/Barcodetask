@@ -17,10 +17,11 @@
         android:layout_height="2dp"/>
     <TextView
         android:layout_width="match_parent"
+        android:textStyle="bold"
         android:text="Enter the Product BarCode"
-        android:textSize="20sp"
+        android:textSize="18sp"
 
-        android:layout_margin="3dp"
+        android:layout_margin="5dp"
         android:textColor="@color/black"
         android:layout_height="wrap_content" />
     <EditText
@@ -30,23 +31,32 @@
         android:layout_marginBottom="30dp"
         android:layout_height="wrap_content" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <Button
+        <TextView
             android:layout_width="0dp"
             android:text="Cancel"
+            android:textAllCaps="false"
             android:layout_gravity="center"
             android:gravity="center"
             android:textColor="@color/black"
             android:id="@+id/cancell"
-            android:background="@color/white"
             android:textSize="20sp"
             android:layout_height="50dp"
             android:layout_weight="1"/>
-        <Button
+        <View
+            android:layout_width="1dp"
+            android:background="@color/gray"
+            android:layout_height="match_parent"/>
+        <TextView
             android:layout_width="0dp"
-            android:background="@color/white"
+            android:textAllCaps="false"
             android:text="Ok"
             android:textColor="@color/black"
             android:id="@+id/okk"

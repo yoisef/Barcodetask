@@ -6,17 +6,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="5dp"
+            android:padding="9dp"
             android:layout_alignParentLeft="true"
             android:src="@drawable/barcod2"
-            app:civ_border_color="@color/green"
-            app:civ_border_width="2dp"
             android:layout_gravity="center_vertical"
             android:background="@drawable/circle"
-            android:id="@+id/barcodee"
+            android:id="@+id/aboutus"
            />
 
         <TextView
@@ -32,19 +31,15 @@
             android:layout_weight="1"
             />
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignParentRight="true"
-            android:src="@drawable/barco"
-            android:scaleType="centerCrop"
-            app:civ_border_color="@color/green"
-            app:civ_border_width="2dp"
-            android:layout_margin="5dp"
-            android:id="@+id/camerascan"
-            android:background="@drawable/circle"
-            android:layout_gravity="center_vertical"
-            />
+       <ImageView
+           android:layout_width="50dp"
+           android:layout_alignParentRight="true"
+           android:layout_margin="5dp"
+           android:padding="9dp"
+           android:id="@+id/camerascan"
+           android:background="@drawable/circle"
+           android:src="@drawable/scancamera"
+           android:layout_height="50dp" />
 
 
 
